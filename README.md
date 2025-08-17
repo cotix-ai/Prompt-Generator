@@ -1,189 +1,148 @@
-# README Template
-
-这个模板适用于需要清晰阐述复杂系统、框架或算法的项目。它的结构旨在引导读者从宏观愿景到微观实现，逐步理解项目的核心价值。
-
-**使用说明:**
-1.  复制以下 Markdown 内容到您的 `README.md` 文件中。
-2.  查找并替换所有 `[占位符]` 内容，例如 `[项目名称]`、`[项目链接]` 等。
-3.  根据您项目的具体情况，调整或删减某些章节。
----
 
 <div align="center">
-  <!-- 徽章: 替换为你自己的徽章。shields.io 是一个很好的工具 -->
-  <img src="https://img.shields.io/badge/Framework-[框架名称]-purple?style=for-the-badge&logo=github" alt="Framework Badge">
-  <img src="https://img.shields.io/badge/Language-[主要语言]-blue?style=for-the-badge&logo=python" alt="Language Badge">
-  <img src="https://img.shields.io/badge/Paradigm-[核心范式]-orange?style=for-the-badge&logo=openai" alt="Paradigm Badge">
-  <img src="https://img.shields.io/github/stars/cotix-ai/README-Template?style=for-the-badge&color=gold" alt="Stars Badge">
+  <img src="https://img.shields.io/badge/Framework-LangGraph-purple?style=for-the-badge&logo=github" alt="Framework Badge">
+  <img src="https://img.shields.io/badge/Language-Python-blue?style=for-the-badge&logo=python" alt="Language Badge">
+  <img src="https://img.shields.io/badge/Paradigm-Multi--Agent_System-orange?style=for-the-badge&logo=openai" alt="Paradigm Badge">
+  <img src="https://img.shields.io/github/stars/cotix-ai/Prompt-Generator?style=for-the-badge&color=gold" alt="Stars Badge">
 </div>
 
 <br>
 
 <h1 align="center">
-  [项目名称]: [项目的一句话核心描述]
+  PromptCraft Agency: An Autonomous Multi-Agent System for Advanced Prompt Engineering
 </h1>
 
 <p align="center">
-  <i>[项目的Slogan或核心价值主张，例如：弥合快速生成与深度结构化推理之间的鸿沟]</i>
+  <i>Bridging the gap between a simple request and a production-ready, highly-optimized LLM prompt.</i>
 </p>
 
 <br>
 
 >[!IMPORTANT]
-> **核心提示**: [简要说明该项目最关键的特性或用途。例如：这是一个通用的、即插即用的引擎，旨在解决复杂的XX问题。]
+> **Core Idea**: PromptCraft Agency is an autonomous system that simulates a specialized creative agency, using a team of AI agents to collaboratively transform a user's high-level goal into a robust, tested, and polished LLM prompt.
 
-## 目录
+## Table of Contents
 
-- [✨ 项目简介](#-项目简介)
-- [💡 核心设计理念](#-核心设计理念)
-- [🧠 架构核心](#-架构核心)
-- [🧩 核心组件详解](#-核心组件详解)
-    - [组件一：[组件名称]
-    - [组件二：[组件名称]
-    - [组件三：[组件名称]
-- [🔄 工作流程](#-工作流程)
-- [🚀 独特优势与创新](#-独特优势与创新)
-- [🛠️ 快速开始](#️-快速开始)
-- [🤝 如何贡献](#-如何贡献)
-- [📄 许可证](#-许可证)
-
-<br>
-
----
-
-## ✨ 项目简介
-
-本项目介绍了 **[项目名称]**，一个新颖的框架，它通过将 [技术A] 与强大的 [技术B] 相结合，显著提升了 [某个领域] 的能力。
-
-**[项目名称]** 重新定义了 [解决问题的方式]，将其视为一个 [核心比喻，例如：在庞大的可能性树中进行搜索]，而非简单的线性过程。它超越了传统方法的局限性（例如：容易陷入局部最优解且难以自我纠正）。本架构协同了 [技术A] 的 [优点] 与 [技术B] 的 [优点]，创造出一个高度健壮和审慎的系统，能够探索多种解决方案路径、评估其潜力，并最终收敛于最优解。
+- [✨ Introduction](#-introduction)
+- [💡 Core Philosophy](#-core-philosophy)
+- [🧠 Architectural Core](#-architectural-core)
+- [🧩 Core Components Explained](#-core-components-explained)
+    - [Agent 1: Client Onboarding Specialist](#agent-1-client-onboarding-specialist)
+    - [Agent 2: Market Research Analyst](#agent-2-market-research-analyst)
+    - [Agent 3: Prompt Optimizer](#agent-3-prompt-optimizer)
+    - [Agent 4: Quality Assurance Panel](#agent-4-quality-assurance-panel)
+- [🔄 Workflow](#-workflow)
+- [🚀 Unique Advantages & Innovations](#-unique-advantages--innovations)
+- [🛠️ Quick Start](#️-quick-start)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📄 License](#-license)
 
 <br>
 
 ---
 
-## 💡 核心设计理念
+## ✨ Introduction
 
-**[项目名称]** 不仅仅是另一种 [现有技术或方法]，它代表了我们组织 [某个过程] 方式的根本性转变。我们相信，[某个领域] 的下一次飞跃需要系统能够 [核心能力，例如：探索、评估和修剪自身的思路]，就像人类一样。
+This project introduces **PromptCraft Agency**, a novel framework built on **LangGraph** that elevates the process of prompt engineering by orchestrating a team of specialized AI agents.
 
-> "[引用一句能体现项目愿景或理念的话，例如：AI推理的未来在于从概率性文本延续转向结构化的状态空间搜索。]"
-
-本设计旨在克服传统方法在解决多步骤问题时的固有局D限，在这些问题中，一个微小的早期错误就可能导致整个解决方案的失败。
+**PromptCraft Agency** redefines prompt creation not as a single, monolithic task, but as a structured, collaborative workflow similar to a real-world creative agency. It moves beyond the limitations of manual, trial-and-error prompt writing, which often lacks rigor and context. This architecture synergizes the structured reasoning of LLMs with real-world data from web searches, creating a robust and deliberate system that can either generate novel prompts from scratch or refine existing ones based on specific goals.
 
 <br>
 
 ---
 
-## 🧠 架构核心
+## 💡 Core Philosophy
 
-**[架构核心名称，例如：认知循环]** 是 **[项目名称]** 架构的基石，也是整个 [流程，例如：推理过程] 的**“单一事实来源”**。该机制将系统从 [某种限制，例如：单一、不可逆的思维链] 的束缚中解放出来。
+**PromptCraft Agency** is more than just a prompt generator; it represents a fundamental shift in how we approach interaction with LLMs. We believe the next leap in AI application development requires systems that can structure their own creative and analytical processes, just as human expert teams do.
 
-**核心功能:**
-系统通过协调一个由多个 [角色/模块] 组成的“团队”来工作，每个角色都有明确的职责：
-1.  **[角色一]**: [简述其功能，例如：从当前状态提出一系列合理的下一步行动]。
-2.  **[角色二]**: [简述其功能，例如：评估任何给定状态的质量或“前景”]。
-3.  **[角色三]**: [简述其功能，例如：智能地平衡探索未知路径和利用已知最优路径]。
+> "The future of AI-powered solutions lies not in better single-shot prompts, but in building autonomous, self-correcting systems that manage the entire lifecycle of a task."
 
-因此，最终产出的每一步都不是基于一次冲动的猜测，而是经过了成千上万次模拟“微思考”的验证，这些“微思考”探索并评估了无数种可能性。
+This design aims to overcome the inherent limitations of single-agent approaches, where a lack of diverse perspectives or external grounding can lead to suboptimal or brittle outputs.
 
 <br>
 
 ---
 
-## 🧩 核心组件详解
+## 🧠 Architectural Core
 
-**[项目名称]** 中的不同组件各司其职，通过明确的劳动分工，共同实现一个整体性的智能流程。
+The **StateGraph** is the cornerstone of the **PromptCraft Agency** architecture and serves as the **"single source of truth"** for the entire workflow. This mechanism liberates the system from the constraints of a simple, linear chain of thought.
 
-### 组件一：[组件名称] (角色：[例如：提议者])
-*   **目标:** [该组件的核心目标，例如：从当前状态生成一组多样化且高质量的候选行动]。
-*   **实现:** [简述其技术实现。例如：在`ExampleTask`中，这由`get_possible_actions`函数处理。它查询一个 [模型/服务] 以获取`top_k`个下一步操作及其概率。这为搜索提供了原始材料，定义了从任何给定点“可能”发生什么。]
+**Core Functionality:**
+The system operates by coordinating a "team" of AI agents, each with a distinct role and responsibility, passing a shared `AgencyState` object between them:
+1.  **Requirement Analysis**: Determines the user's intent—either to create a new prompt or optimize an existing one.
+2.  **Creative Briefing**: Translates a vague user request into a structured, actionable plan.
+3.  **Research & Synthesis**: Gathers and synthesizes external information to ground the prompt in reality.
+4.  **Drafting & Optimization**: Constructs or refines the prompt based on all available information.
+5.  **Quality Assurance & Revision**: Implements a rigorous, iterative review cycle to ensure the prompt meets all objectives.
 
-### 组件二：[组件名称] (角色：[例如：评估者])
-*   **目标:** [该组件的核心目标，例如：为任何状态提供一个可靠的启发式评分，引导搜索走向更有希望的区域]。
-*   **实现:** [简述其技术实现。例如：`get_state_value`函数查询一个专门的 [模型/服务]，要求它对部分或完整的解决方案进行评分（例如，0.0到1.0）。这个分数至关重要，它扮演了系统的“直觉”角色，告诉搜索算法哪些路径值得进一步探索。]
-
-### 组件三：[组件名称] (角色：[例如：仲裁者])
-*   **目标:** [该组件的核心目标，例如：作为系统的心脏，整合来自其他组件的信息并做出最终决策]。
-*   **实现:** [简述其技术实现。例如：`CoreAlgorithm`类及其`calculate_score`方法实现了一个 [核心算法] 的变体。这个公式是决策过程的核心，它智能地结合了来自 [组件一] 的先验信息、来自 [组件二] 的反馈，以及其他统计数据，以决定下一步要探索哪个分支。]
+Therefore, the final output is not the result of a single guess, but the product of a validated, multi-step process that mirrors professional best practices.
 
 <br>
 
 ---
 
-## 🔄 工作流程
+## 🧩 Core Components Explained
 
-**[项目名称]** 的运作遵循一个清晰的、迭代的循环，模拟了一个结构化的处理过程：
+The agents within **PromptCraft Agency** function with a clear division of labor, collaborating to achieve an intelligent, holistic process.
 
-1.  **选择 (Selection):** 算法从根节点（初始问题）开始，通过反复选择得分最高的子节点向下遍历。
-2.  **扩展 (Expansion):** 到达一个未探索的叶子节点时，调用 **[组件一]** 来生成所有可能的下一步，从而扩展决策树。
-3.  **评估 (Evaluation/Simulation):** 对新节点进行快速评估。**[组件二]** 会对这个新分支的潜力进行打分。
-4.  **反向传播 (Backpropagation):** 将评估分数传回至根节点，更新路径上所有节点的统计信息（如访问次数和平均回报）。
-5.  **收敛/终止 (Termination):** 重复此循环指定的次数。最终的答案通过选择从根节点出发访问次数最多的路径来构建，这代表了经过最充分验证的推理路线。
+### Agent 1: Client Onboarding Specialist (Role: Strategist)
+*   **Objective:** To transform a user's raw, informal request into a structured "Creative Brief."
+*   **Implementation:** This agent queries an LLM with a template designed to extract key project parameters: the core objective, target audience, key constraints, desired tone, and output format. This brief becomes the foundational document for the entire project.
 
-<br>
+### Agent 2: Market Research Analyst (Role: Researcher)
+*   **Objective:** To enrich the creative process with real-world context and data, preventing generic or naive outputs.
+*   **Implementation:** The agent first uses an LLM to generate relevant search queries based on the Creative Brief. It then executes these queries using the `TavilySearchResults` tool and synthesizes the findings into a concise "Research Summary."
 
----
+### Agent 3: Prompt Optimizer (Role: Refiner)
+*   **Objective:** To revise a user's existing prompt based on a specific optimization goal.
+*   **Implementation:** This agent is activated in the "Optimization Mode." It analyzes the user's reference prompt and their stated goal, then leverages an LLM (potentially a more powerful model designated for this task) to apply advanced prompting techniques and generate an improved version.
 
-## 🚀 独特优势与创新
-
-尽管现有的 [某类技术，例如：高级提示工程] 已经改进了 [某个问题]，但它们仍然在 [某个限制，例如：单次前向传递] 的模式下运行。在 **鲁棒性、错误纠正和克服初始错误** 方面，仍有巨大的改进空间。
-
-**这正是 [项目名称] 旨在深入探索和解决的方向。**
-
-**[项目名称]** 通过其独特的 **[核心架构描述，例如：MCTS驱动的多智能体架构]**，提供了以下优势：
-
-*   **显著降低错误率:** [解释原因，例如：通过主动探索和修剪不良路径，系统不太可能沿错误逻辑走到底。]
-*   **真正的“跳出思维定势”:** [解释原因，例如：搜索算法可以探索那些不那么明显但可能正确的路径，这些路径在贪心策略下会被忽略。]
-*   **克服局部最优陷阱:** [解释原因，例如：系统可以从一个起初看起来很有希望但后来被评估为死胡同的路径中“回溯”，这是标准模型所缺乏的能力。]
-*   **可调的性能:** [解释原因，例如：计算成本和解决方案质量之间的权衡变得明确。对于更难的问题，只需增加`迭代次数`即可进行更深入的“思考”。]
+### Agent 4: Quality Assurance Panel (Role: Critic)
+*   **Objective:** To rigorously evaluate the draft prompt against the Creative Brief and provide actionable feedback for improvement.
+*   **Implementation:** This agent uses an LLM with a structured output function (`with_structured_output`) to produce a `QAReport` containing a quality score (1-10), an approval status ('Approved' or 'Revision Required'), and detailed feedback. This enables a robust, automated review loop.
 
 <br>
 
 ---
 
-## 🛠️ 快速开始
+## 🔄 Workflow
 
-这一部分应包括如何设置和运行您的项目的说明。
+**PromptCraft Agency** follows a clear, state-driven workflow managed by LangGraph:
 
-### 1. 先决条件
-
-*   [依赖项 A, e.g., Python 3.8+]
-*   [依赖项 B, e.g., Poetry 或 Pip]
-*   [依赖项 C, e.g., API 密钥配置]
-
-### 2. 安装
-
-```bash
-# 克隆仓库
-git clone https://github.com/[你的GitHub用户名]/[你的仓库名].git
-cd [你的仓库名]
-
-# 安装依赖
-pip install -r requirements.txt
-# 或者使用 poetry
-# poetry install
-```
-
-### 3. 配置
-
-1.  复制 `.env.example` 文件为 `.env`。
-2.  在 `.env` 文件中填入你的配置，例如 API 密钥：
-    ```
-    API_KEY="sk-..."
-    ```
-
-### 4. 运行示例
-
-```bash
-python main.py [参数]
-```
+1.  **Analysis (Routing):** The `Requirement Analyst` node inspects the initial input to determine the workflow path: **Creation Mode** or **Optimization Mode**.
+2.  **Creation Path:**
+    *   **Onboarding:** The `Client Onboarding Specialist` creates the `Creative Brief`.
+    *   **Research:** The `Market Research Analyst` gathers external data.
+    *   **Strategy:** The `Creative Council` brainstorms approaches.
+    *   **Drafting:** The `Prompt Architect` writes the initial prompt.
+3.  **Optimization Path:**
+    *   The `Prompt Optimizer` directly refines the user's provided prompt, creating a new draft.
+4.  **Review Loop (Shared):**
+    *   **QA:** The `QA Panel` evaluates the draft prompt. Based on its decision, the graph routes to either `Revise` or `Deliver`.
+    *   **Revision:** The `Revision Specialist` applies the QA feedback and sends the updated prompt back to the `QA Panel`. This loop continues until approval or a max iteration limit is reached.
+5.  **Delivery (Termination):** The `Delivery Manager` assembles the final, polished prompt into a "Prompt Delivery Package" for the user, and the workflow ends.
 
 <br>
 
 ---
 
-## 🤝 如何贡献
+## 🚀 Unique Advantages & Innovations
 
-我们欢迎并鼓励对本项目的贡献！如果您有任何想法、建议或发现错误，请随时提交 Pull Request 或创建 Issue。
+While advanced prompt engineering techniques have improved LLM outputs, many still operate on a single forward-pass model. There is significant room for improvement in **robustness, error correction, and overcoming initial flawed assumptions.**
 
-请阅读我们的 [贡献指南](./CONTRIBUTING.md) 以了解详细信息。
+**This is precisely what PromptCraft Agency is designed to address.**
+
+Through its unique **multi-agent, state-driven architecture**, PromptCraft Agency offers:
+
+*   **Significantly Reduced "Hallucination":** By grounding the prompt creation process with external web research, the system is less likely to generate factually incorrect or uninspired content.
+*   **True Iterative Improvement:** The built-in QA and revision loop automates the critical process of testing and refinement, which is often done manually and haphazardly.
+*   **Dual-Mode Functionality:** The system is versatile, capable of both greenfield creation and targeted optimization of existing assets—a key requirement for real-world applications.
+*   **Configurable Expertise:** By allowing users to define different LLMs for different agents (e.g., a more powerful model for optimization) via `config.yaml`, the system's performance and cost can be finely tuned.
 
 <br>
+
+---
+
+## 🤝 How to Contribute
+
+We welcome and encourage contributions to this project! If you have ideas, suggestions, or bug reports, please feel free to submit a Pull Request or create an Issue.
